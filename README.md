@@ -13,9 +13,9 @@ npm install ortskennzahlen
 ```js
 const { data, by_number } = require('ortskennzahlen');
 
-// by_number ist eine normale Map, indiziert nach Vorwahlen
+// by_number ist eine Map aller aktiven Einträge, indiziert nach Vorwahlen
 by_number.get(89);   // -> 'München'
-by_number.get('90'); // -> undefined
+by_number.get('89'); // -> undefined
 
 // data enthält eine Liste aller Einträge, z.B.:
 console.dir(data[0]);
