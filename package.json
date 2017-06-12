@@ -1,0 +1,31 @@
+{
+  "name": "ortsnetzkennzahlen",
+  "version": "1.0.0",
+  "description": "Liste der deutschen Ortsnetzkennzahlen (Vorwahlen)",
+  "keywords": [
+    "Vorwahlen",
+    "Ortsnetzkennzahlen",
+    "Deutschland",
+    "Telefon"
+  ],
+  "homepage": "https://github.com/pigulla/ortsnetzkennzahlen",
+  "bugs": "https://github.com/pigulla/ortsnetzkennzahlen/issues",
+  "repository": {
+    "url": "https://github.com/pigulla/ortsnetzkennzahlen.git",
+    "type": "git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raphael Pigulla <pigulla@four66.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "decompress": "^4.2.0",
+    "json-strictify": "^2.0.2",
+    "mz": "^2.6.0",
+    "neat-csv": "^2.1.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}
